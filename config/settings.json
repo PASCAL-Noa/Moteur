@@ -1,0 +1,62 @@
+{
+    "projects": {
+        "Core": {
+            "dependencies": [],
+            "dependents": [
+                "Render",
+                "Engine",
+                "Game"
+            ],
+            "guid": "07BC0F67-0943-2247-57DC-37EB4D4804C7",
+            "lib": true,
+            "pch": true,
+            "vcpkg": false,
+            "window": false
+        },
+        "Engine": {
+            "dependencies": [
+                "Core",
+                "Render"
+            ],
+            "dependents": [
+                "Game"
+            ],
+            "guid": "59423CDF-69ED-1784-7B26-2AFB6B7E5960",
+            "lib": true,
+            "pch": true,
+            "vcpkg": true,
+            "window": false
+        },
+        "Game": {
+            "dependencies": [
+                "Core",
+                "Render",
+                "Engine"
+            ],
+            "dependents": [],
+            "guid": "59A42873-1762-1B70-33E4-7725583C0256",
+            "lib": false,
+            "pch": true,
+            "vcpkg": true,
+            "window": true
+        },
+        "Render": {
+            "dependencies": [
+                "Core"
+            ],
+            "dependents": [
+                "Engine",
+                "Game"
+            ],
+            "guid": "591E6F06-6A53-0D8C-3FF2-024165C25728",
+            "lib": true,
+            "pch": true,
+            "vcpkg": false,
+            "window": false
+        }
+    },
+    "solution_guid": "588E37A4-6BEC-65AA-5321-5F594ECE4E48",
+    "solution_name": "BestEngineEUW",
+    "startup_project": "Core",
+    "version": "1.17.3"
+}
