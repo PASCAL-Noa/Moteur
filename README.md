@@ -1,4 +1,4 @@
-# ⚙️ Engine – My first 3D game engine with DirectX12 ! ⚡
+# ⚙️ Engine – My first 3D game engine with DirectX12 !⚡
 
 This game engine, fully developed in C++ using DirectX12, is built around an optimized Entity Component System (ECS) and a script management system inspired by Unity, providing solid performance and flexibility. \
 The complete encapsulation of DirectX12 ensures efficient and clean rendering, enhanced by a particle system and real-time dynamic lighting. \
